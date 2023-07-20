@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.restaurant-list {
+    list-style: none;
+    padding: 0;
+}
+
+.restaurant-list li {
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+    background-color: #EF4F5F;
+    color: aliceblue;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0px;
+    font-weight: bold;
+    cursor: point;
+}
+
+input[type='text'], input[type='password']{
+    display: block;
+    background-color: aliceblue;
+    margin: auto;
+    border: 1.5px solid rgb(200,200,200);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+form{
+    background-color: white;
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    padding: 10px 5px 20px;
+    margin-left: 130px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+}
